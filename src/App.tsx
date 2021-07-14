@@ -11,7 +11,7 @@ import { orderDataByHost, sortByApdex } from "./utils/functions";
 
 import "./App.css";
 
-const displayCRUD = true;
+const displayCRUD = false;
 
 function App() {
   const [dataByHost, setDataByHost] = useState<TypeHostData["data"]>({});
